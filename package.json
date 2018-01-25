@@ -1,0 +1,24 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist .nyc_output ",
+    "build": "tsc",
+    "lint": "tslint -t stylish --project \"tsconfig.json\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.9.1",
+    "tslint-microsoft-contrib": "^5.0.2",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@types/node": "^9.3.0",
+    "rimraf": "^2.6.2"
+  }
+}

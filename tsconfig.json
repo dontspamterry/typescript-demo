@@ -1,0 +1,23 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "lib": ["es2015", "es2017"],
+    "compilerOptions": {
+        "lib": ["es2015", "es2017", "dom", "esnext.asynciterable"],
+        "target": "es2017",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "dist/",
+        "strict": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strictNullChecks": false,
+        "noUnusedLocals": true
+    }
+}

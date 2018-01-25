@@ -1,0 +1,52 @@
+/**
+ * This starter project recommended using Microsoft TSLint rules.
+ * Please see https://github.com/Microsoft/tslint-microsoft-contrib for more details.
+ */
+{
+  "extends": [
+    "tslint-microsoft-contrib"
+  ],
+  "rules": {
+    "interface-name": false,
+    "no-console": false,
+    "no-empty-interface": false,
+    "no-multiline-string": false,
+    "mocha-no-side-effect-code": false,
+    "chai-vague-errors": false,
+    "missing-jsdoc": false,
+    "no-relative-imports": false,
+    "export-name": false,
+    "promise-function-async": false,
+    "no-void-expression": false,
+    "completed-docs": false,
+    "no-backbone-get-set-outside-model": false,
+    "ordered-imports": false,
+    "match-default-export-name": false,
+    "max-classes-per-file": [true, 20],
+    "strict-boolean-expressions": [true,
+      "allow-null-union",
+      "allow-undefined-union",
+      "allow-string"],
+    "no-http-string": [true, "http://localhost:?."],
+    // Working with untyped libraries
+    "no-require-imports": false,
+    "no-unsafe-any": false,
+    "no-var-requires": false,
+    // End working without types
+    "trailing-comma": [
+      // https://palantir.github.io/tslint/rules/trailing-comma/
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
+    "typedef": [
+      true,
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "member-variable-declaration"
+    ]
+  }
+}
